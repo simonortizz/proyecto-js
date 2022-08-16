@@ -1,0 +1,71 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*PORTADA*/
+header {
+    background: url(../images/portada.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 300px;
+    
+}
+
+/*NAVBAR*/
+.barra-fija {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+.ediciones-navbar {
+    position: fixed;
+    background-color: rgb(41, 40, 40);
+    a {
+        color: white;
+        font-family: 'Nunito', sans-serif;
+        font-size: 35px;
+        &:hover{
+            color: #fc834b;
+        }
+    } 
+    
+}
+
+/*SECTION*/
+section {
+    background-color: #cecccd;
+    .titulo {
+        background-color: rgb(250, 129, 0);
+    }
+    .tachado {
+        text-decoration: line-through;
+    }
+    .oferta {
+        color: red;
+    }
+}
+
+/*FOOTER*/
+footer {
+    background-color: gray;
+    .tituloRedes {
+        display: flex;
+        justify-content: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .redes {
+        display: flex;
+        justify-content: center;
+        img {
+            width: 60%;
+        }
+    }
+    .copyright {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(59, 56, 56);
+        color: white;
+    }
+}
