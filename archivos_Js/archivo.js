@@ -85,11 +85,5 @@ console.table(opciones)
 
 
 
-//DESAFIO COMPLEMENTARIO, INTERACTUAR CON EL DOM
-//agregamos un titulo
-let titulo = document.querySelector('.titulo')
-console.log(titulo.innerHTML)
-titulo.innerText='ESTO ES OLANIKE'
-titulo.style.font='bold 40px monospace'
 
 
