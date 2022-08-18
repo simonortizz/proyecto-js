@@ -87,7 +87,7 @@
 let botonCambio = document.querySelector('#botonCambio')
 
 botonCambio.onmouseover=()=> {
-    console.log('¡Están en oferta!');
+    console.log('este producto esta en oferta');
     botonCambio.className='btn btn-danger';
 }
 
